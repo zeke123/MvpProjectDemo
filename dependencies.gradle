@@ -1,0 +1,32 @@
+//Android 通用版本
+def supportVersion = "27.0.2"
+
+def arouterVersion = "1.2.1.1"
+def arouterCompilerVersion = "1.1.2.1"
+
+
+
+project.ext {
+    android = [
+            applicationId    : "com.zhoujian.mvpprojectdemo",
+            compileSdkVersion: 28,
+            buildToolsVersion: "28",
+            minSdkVersion    : 15,
+            targetSdkVersion : 28,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    dependencies = [
+            "support-v4"     : "com.android.support:support-v4:${supportVersion}",
+            "appcompat-v7"   : "com.android.support:appcompat-v7:${supportVersion}",
+            "design"         : "com.android.support:design:${supportVersion}",
+            "recyclerview-v7": "com.android.support:recyclerview-v7:${supportVersion}",
+            "cardview-v7"    : "com.android.support:cardview-v7:${supportVersion}",
+
+            //路由ARouter
+            "arouter"        : "com.alibaba:arouter-api:${arouterVersion}",
+            "arouterCompiler": "com.alibaba:arouter-compiler:${arouterCompilerVersion}"
+
+    ]
+}

@@ -1,0 +1,16 @@
+include ':app'//启动APP模块
+
+include ':androidsupportlib' //Android v4 v7等原生包
+
+include ':opensourcelib' // 第三方开源库
+
+include  ':commonmodule' //通用基础模块
+
+include  ':amodule' // A Module
+
+include  ':bmodule' // B Module
+
+include  ':cmodule' // C Module
+
+include  ':dmodule' // D Module
+

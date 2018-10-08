@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.zhoujian.mvpprojectdemo.commonmodule.view.CommonTitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#FF4081"
+        app:centerTextColor="#FFF"
+        app:centerTitle="自定义标题"
+        app:leftDrawble="@mipmap/common_back_img"
+        app:leftText="返回"
+        app:leftTextColor="#FFF"
+        app:rightText="语音"
+        app:rightTextColor="#FFF">
+    </com.zhoujian.mvpprojectdemo.commonmodule.view.CommonTitleView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AModule" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="跳转界面" />
+</LinearLayout>
