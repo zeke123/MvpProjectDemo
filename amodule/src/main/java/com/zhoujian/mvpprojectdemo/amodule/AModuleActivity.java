@@ -25,10 +25,6 @@ public class AModuleActivity extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
 
-
-
-
-
             @Override
             public void onClick(View view) {
                 build = ARouter.getInstance().build("/bmodule/activity/BModuleActivity");
