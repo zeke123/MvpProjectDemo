@@ -75,7 +75,6 @@ public class CommonTitleView extends RelativeLayout {
                 mClick.rightClick();
             }
         });
-
     }
 
     private void initView() {

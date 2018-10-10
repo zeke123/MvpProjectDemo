@@ -1,5 +1,8 @@
 apply plugin: 'com.android.application'
 
+//产品名
+def PRODUCT_NAME = "MvpProjectDemo"
+
 android {
     compileSdkVersion rootProject.ext.android["compileSdkVersion"]
     defaultConfig {
@@ -20,10 +23,16 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            //开启混淆
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
+
+
+
 }
 
 dependencies {
