@@ -1,4 +1,4 @@
-package com.zhoujian.mvpprojectdemo.commonmodule;
+package com.zhoujian.mvpprojectdemo;
 
 import android.app.Application;
 

@@ -8,9 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".commonmodule.MvpProjectApplication">
+        android:name="com.zhoujian.mvpprojectdemo.MvpProjectApplication">
 
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".activity.MainActivity"/>
 
     </application>
 
